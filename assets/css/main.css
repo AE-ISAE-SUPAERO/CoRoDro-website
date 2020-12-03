@@ -4045,7 +4045,7 @@ input, select, textarea {
 
   grid : auto auto /auto auto 700px auto;
   grid-gap: 5px;
-  background-color: white
+  background-color: white;
   padding: 5px;
 
 }
