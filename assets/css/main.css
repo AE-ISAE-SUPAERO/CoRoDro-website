@@ -4013,7 +4013,7 @@ input, select, textarea {
   display: grid;
   grid : auto auto/auto auto auto auto auto;
   grid-gap: 20px;
-  background-color: white
+  background-color: white;
   padding: 5px;
 
 }
