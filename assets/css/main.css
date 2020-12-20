@@ -3862,8 +3862,19 @@ input, select, textarea {
 				color: #008844;
 				background: #000;
 				opacity: 1;
-
 			  }
+
+				#main.alt  >.spon {
+					background-image: url(/images/stars.jpg);
+					font-size : 35px;
+					padding-left: 10%;
+					padding-right: 10%;
+					margin-left: 20px;
+					margin-right: 20px;
+					color:#BEB95A ;
+					font-weight: 900;
+					font-family: "Comic Sans MS", "Comic Sans", cursive;
+				}
 			
 			
 			
