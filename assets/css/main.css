@@ -2782,10 +2782,12 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
+		
 	}
 
 		.tiles + * {
 			border-top: 0 !important;
+			
 		}
 
 		.tiles article {
@@ -2816,6 +2818,7 @@ input, select, textarea {
 
 			.tiles article .image {
 				display: none;
+				
 			}
 
 			.tiles article header {
@@ -2851,7 +2854,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.0;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2870,7 +2873,7 @@ input, select, textarea {
 			}
 
 			.tiles article:hover:before {
-				opacity: 0;
+				opacity: 0.50;
 			}
 
 			.tiles article.is-transitioning {
@@ -2890,27 +2893,27 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #a6d3e2;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #848192;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #868b9b;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #ddc3aa;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #b4c1df;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #99bba9;
 			}
 
 		@media screen and (max-width: 1280px) {
