@@ -2221,12 +2221,16 @@ input, select, textarea {
 
 	.image {
 		border: 0;
-		display: inline-block;
+		display: block;
+		width: 100%;
 		position: relative;
 	}
 
 		.image img {
 			display: block;
+			margin: auto;
+			max-width: 100%;
+			height: auto;
 		}
 
 		.image.left, .image.right {
@@ -3178,6 +3182,8 @@ code {
 			border-right: 0;
 			left: -3em;
 			width: calc(100% + (3em * 2));
+			
+			
 		}
 
 			.post > header {
@@ -3301,6 +3307,7 @@ code {
 			margin-left: -1.5em;
 			margin-top: calc(-1.5em - 1px);
 			width: calc(100% + 3em);
+			
 		}
 
 		.post > footer {
